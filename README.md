@@ -1,5 +1,5 @@
 # video predict by Honglak Lee et. al 2016, NIPS. 
-``
+```
 from keras.layers import Dense, Flatten, Conv2D, ZeroPadding2D, Reshape, Deconv2D
 from keras.models import Sequential
 
@@ -48,4 +48,4 @@ model.add(Deconv2D(3, kernel_size=(8, 8), activation = 'relu', padding='valid', 
 model.add(ZeroPadding2D(padding = (0, 1)))
 
 model.summary()
-``
+```
